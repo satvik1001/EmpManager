@@ -9,7 +9,7 @@ import lombok.Data;
 
 //For Storing the data in database
 
-@Data
+@Data  //no meed to create getter and setter method 
 @Entity
 @Table(name="Employee_Entity")  //On changing the name of table the new table will be created in DB. 
 public class EmployeeEntity {
